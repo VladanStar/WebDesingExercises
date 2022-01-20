@@ -1,12 +1,12 @@
 import React from "react";
 
 
-function Objava(props){
+function Objava({ime, objava, brojPregleda}){
     return (
         <div className="objava">
-        <h4>{props.ime}</h4>
-        <p>{props.objava}</p>
-        <h4>Broj pregleda objave</h4>
+        <h4>{ime}</h4>
+        <p>{objava}</p>
+        <h4>{brojPregleda}</h4>
         </div>
     )
 }
