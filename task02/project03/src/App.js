@@ -6,7 +6,7 @@ function App() {
   const [users, setUsers] = useState([
     { ime: "Bogdan Palezevic", pozicija: "desni half", brojDresa: 4 },
     { ime: "Cedomir Tomcic", pozicija: "centar half", brojDresa: 5 },
-    { ime: "boris Jovkovic", pozicija: "levi half", brojDresa: 6 },
+    { ime: "Boris Jovkovic", pozicija: "levi half", brojDresa: 6 },
     { ime: "Steva Stasic", pozicija: "centralni vezni", brojDresa: 8 },
     { ime: "Boris Krstic", pozicija: "centarfor", brojDresa: 9 },
   ]);
