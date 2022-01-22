@@ -28,7 +28,7 @@ function createContainer() {
   document.body.appendChild(container);
   return container;
 }
- const container = createContainer();
+const container = createContainer();
 
 function button() {
   const button = document.createElement("button");
