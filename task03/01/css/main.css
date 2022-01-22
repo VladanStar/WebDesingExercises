@@ -1,12 +1,20 @@
 body {
     background: rosybrown;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
 }
 div {
     text-align: center;
     background: whitesmoke;
     color: crimson;
+
+}
+button {
+    border: none;
+    border-radius: 20%;
+    background: red;
+    color: black;
 
 }

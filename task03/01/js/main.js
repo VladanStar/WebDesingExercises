@@ -36,4 +36,4 @@ function createContainer(){
     document.body.appendChild(container);
     return container
 }
-const container = createContainer();
+ createContainer();
