@@ -29,7 +29,7 @@ function button (){
     document.body.appendChild(button);
     button.addEventListener("click",fetchJoke);
 }
-button();
+ button();
 
 function createContainer(){
     const container = document.createElement("div");
