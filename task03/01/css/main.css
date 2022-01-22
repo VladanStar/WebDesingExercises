@@ -1,0 +1,12 @@
+body {
+    background: rosybrown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div {
+    text-align: center;
+    background: whitesmoke;
+    color: crimson;
+
+}
