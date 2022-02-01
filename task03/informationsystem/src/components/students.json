@@ -1,0 +1,33 @@
+[
+    
+      {
+        "firstName": "Ranko",
+        "lastName": "Stajic",
+        "jmbg": "1103973721019"
+      },
+      {
+          "firstName": "Dragan",
+          "lastName": "Ikanovic",
+          "jmbg": "1103973721019"
+        },
+        {
+          "firstName": "Cedomir",
+          "lastName": "Tomcic",
+          "jmbg": "1103973721019"
+        },
+        {
+          "firstName": "Boris",
+          "lastName": "Jovkovic",
+          "jmbg": "1103973721019"
+        },
+        {
+          "firstName": "Luka",
+          "lastName": "Cveticanin",
+          "jmbg": "1103973721019"
+        },
+        {
+          "firstName": "Benjamin",
+          "lastName": "Sheshko",
+          "jmbg": "1103973721019"
+        }
+ ]

@@ -1,46 +1,31 @@
-import React from "react";
+import React,{useEffect, useState} from "react";
 import Student from "./Student";
 import './StudentList.css';
 
+
 const StudentList = () => {
-  const students = [
-    {
-      firstName: "Ranko",
-      lastName: "Stajic",
-      jmbg: 1103973721019,
-    },
-    {
-        firstName: "Dragan",
-        lastName: "Ikanovic",
-        jmbg: 1103973721019,
-      },
-      {
-        firstName: "Cedomir",
-        lastName: "Tomcic",
-        jmbg: 1103973721019,
-      },
-      {
-        firstName: "Boris",
-        lastName: "Jovkovic",
-        jmbg: 1103973721019,
-      },
-      {
-        firstName: "Luka",
-        lastName: "Cveticanin",
-        jmbg: 1103973721019,
-      },
-      {
-        firstName: "Benjamin",
-        lastName: "Sheshko",
-        jmbg: 1103973721019,
-      }
-
-
-  ];
+  const[students, setStudents] = useState([])
+  
+  useEffect(()=>{
+    fetch('./students.json')
+    .then(
+      data => data.json() )
+      .then(data => console.log(data)
+      )
+    .then(
+      students => setStudents(students) )
+  },[]);
+ 
   return (
-  <div className="StudentList">
+   <div className="StudentList">
+{
 
-      {students.map((student,id)=><Student key= {id} student={student}/>)}
+students && students.map(student =>
+          <Student key={student.jmbg}
+                   student={student} />
+        )
+}
+
   </div>)
 };
 

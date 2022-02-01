@@ -4,7 +4,8 @@
     box-shadow: 0px 8px 10px rgba(0,0,0);
     display: block;
     background-color: burlywood;
-    width: 30%;
+    width: 50vh;
+    height: 100vh;
 }
 .StudentList  h2{
     margin:  0 0 5ox 0;
