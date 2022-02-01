@@ -1,9 +1,12 @@
 import React from 'react';
 
-const Student = () => {
+const Student = ({student}) => {
+   
   return (
   <div>
-      <p>Vladan Cupric</p>
+      <p>{student.firstName}</p>
+      <p>{student.lastName}</p>
+      <p> {student.jmbg}</p>
   </div>
   )};
 
