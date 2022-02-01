@@ -8,12 +8,13 @@ const StudentList = () => {
   useEffect(() => {
     fetch("./students.json", {
       headers: {
+        method: "GET",
         "Content-Type": "application/json",
         Accept: "application/json",
       },
     })
       .then((data) => data.json())
-      .then((data) => console.log(data))
+      // .then((data) => console.log(data))
       .then(students => setStudents(students));
   }, []);
 
