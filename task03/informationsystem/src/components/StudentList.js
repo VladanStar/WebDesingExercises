@@ -19,10 +19,11 @@ const StudentList = () => {
 
   return (
     <div className="StudentList">
-      {students &&
-        students.map((student) => (
-          <Student key={student.jmbg} student={student} />
-        ))}
+      {
+      students &&
+        students.map((student,id) => <Student key={id} student={student} />
+)
+        }
     </div>
   );
 };

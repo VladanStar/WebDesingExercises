@@ -1,12 +1,11 @@
 import React from 'react';
 
-const Student = ({firstName, lastName, jmbg}) => {
+const Student = (props) => {
+  const[jmbg, firstName, lastName] = props.student;
    
   return (
   <div>
-      <p>{firstName}</p>
-      <p>{lastName}</p>
-      <p> {jmbg}</p>
+      <p>{firstName}, {lastName},{jmbg}</p>
   </div>
   )};
 
