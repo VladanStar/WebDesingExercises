@@ -14,7 +14,7 @@ const StudentList = () => {
       },
     })
       .then((data) => data.json())
-      // .then((data) => console.log(data))
+     // .then((data) => console.log(data))
       .then(students => setStudents(students));
   }, []);
 
