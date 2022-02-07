@@ -53,9 +53,13 @@ label {
   justify-content: space-around;
   align-items: center;
 }
-.container :nth-child(odd) {
+
+.container :first-child{
   display: flex;
-  flex-grow: 1 1 2;
   justify-content: space-around;
   align-items: center;
+
+}
+.container  {
+ float: right;
 }

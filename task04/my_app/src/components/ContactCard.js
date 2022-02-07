@@ -14,7 +14,7 @@ import "../App.css" ;
     <div className="content">
       <Link to={{pathname:`/contact/${id}`, state:{contact:props.contact}}}>
       
-      <div className="header"> {name}</div>
+      <div className="header"> {name}</div> <br></br>
       <div>{email}</div>
       </Link>
     </div>
