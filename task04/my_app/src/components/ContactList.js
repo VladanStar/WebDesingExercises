@@ -1,22 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import ContactCard from "./ContactCard";
+import "../App.css" ;
 
 export const ContactList = (props) => {
   console.log(props);
+
   const deleteContactHandler = (id) => {
     props.getContactId(id);
   };
 
-  const contacts = [
-    {
-      id: "1",
-      name: "Dejan Kuzmanovic",
-      email: "dejankuzmanovic@gmail.com",
-    },
-  ];
-
-  const renderContactList = contacts.map((contact) => {
+  const renderContactList = props.contacts.map((contact) => {
     return (
       <ContactCard
         contact={contact}

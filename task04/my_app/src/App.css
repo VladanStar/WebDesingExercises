@@ -31,3 +31,15 @@ i.icon {
 .list {
   flex-grow: 1;
 }
+.field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 4;
+  padding: 20px;
+  margin: 50px;
+}
+label {
+  padding: 20px;
+  margin: 50px;
+}

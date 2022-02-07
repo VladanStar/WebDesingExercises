@@ -2,7 +2,7 @@ import React, {useState, useEffect} from "react";
 import Header from "./components/Header";
 import { AddContact } from "./components/AddContact";
 import { ContactList } from "./components/ContactList";
-import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
+import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -44,15 +44,24 @@ function App() {
       <Router>
 
       <Header />
-      <Routes>
-      <Route path="/" exact component={()=> (<ContactList  contacts={contacts} getContactId={removeContactHandler} />
+      <Switch>
+      <Route path="/" 
+      exact
+       render={(props)=> (
+      <ContactList  
+      {...props}
+      contacts={contacts} 
+      getContactId={removeContactHandler} />
       )}
       />
-      <Route path="/add" component={()=> (<AddContact addContactHandler={addContactHandler} />
+      <Route path="/add" render={(props)=> (
+      <AddContact 
+      {...props}
+      addContactHandler={addContactHandler} />
       )}  
       />
       
-      </Routes>
+      </Switch>
       {/* <AddContact addContactHandler={addContactHandler} />
       <ContactList  contacts={contacts} getContactId={removeContactHandler}/> */}
       </Router>

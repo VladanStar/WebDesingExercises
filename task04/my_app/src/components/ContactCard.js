@@ -1,6 +1,7 @@
 import React from 'react';
 import user from "../images/user.png"
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "../App.css" ;
 
  const ContactCard = (props) => {
 
