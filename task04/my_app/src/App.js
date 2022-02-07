@@ -5,6 +5,7 @@ import { ContactList } from "./components/ContactList";
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ContactDetail from "./components/ContactDetail";
 
 
 
@@ -60,6 +61,8 @@ function App() {
       addContactHandler={addContactHandler} />
       )}  
       />
+
+<Route  path="/contact/:id" component={ContactDetail} />
       
       </Switch>
       {/* <AddContact addContactHandler={addContactHandler} />

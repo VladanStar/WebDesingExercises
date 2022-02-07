@@ -1,5 +1,6 @@
 import React from 'react';
-import user from "../images/user.png"
+import user from "../images/user.png";
+import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../App.css" ;
 
@@ -11,9 +12,11 @@ import "../App.css" ;
 
       <img src={user} alt="user" className="ui avatar image" />
     <div className="content">
+      <Link to={{pathname:`/contact/${id}`, state:{contact:props.contact}}}>
       
       <div className="header"> {name}</div>
       <div>{email}</div>
+      </Link>
     </div>
     <i className='trash alternate outline icon'
       style={{color:"red", marginTop:"7px"}}

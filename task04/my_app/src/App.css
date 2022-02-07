@@ -1,3 +1,7 @@
+body {
+  background-color: blueviolet;
+}
+
 .main {
   margin-top: 5em;
 }
@@ -25,13 +29,14 @@ i.icon {
 }
 .celled {
   flex-direction: column;
- justify-content: center;
+ justify-content: space-between;
  align-items: center;
 }
 .list {
   flex-grow: 1;
 }
 .field {
+  background-color: aquamarine;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,4 +47,15 @@ i.icon {
 label {
   padding: 20px;
   margin: 50px;
+}
+.content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.container :nth-child(odd) {
+  display: flex;
+  flex-grow: 1 1 2;
+  justify-content: space-around;
+  align-items: center;
 }
