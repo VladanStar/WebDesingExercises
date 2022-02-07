@@ -14,10 +14,20 @@
 
 .item {
   padding: 15px 0px !important;
+  display: flex;
+ ;
 }
 
 i.icon {
   float: right;
   font-size: 20px;
   cursor: pointer;
+}
+.celled {
+  flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.list {
+  flex-grow: 1;
 }
