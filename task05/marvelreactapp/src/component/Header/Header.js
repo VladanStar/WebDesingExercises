@@ -1,5 +1,6 @@
 import React from 'react';
-import logo from "../../img/marvellogo.jpg"
+import logo from "../../img/marvellogo.jpg";
+
 
 const Header = () => {
   return (

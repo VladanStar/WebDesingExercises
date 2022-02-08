@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react"
 import './App.css';
 import Header from "./component/Header/Header";
+import CharacterTable from "./component/CharacterTable/CharacterTable";
 import axios from "axios";
 
 function App() {
@@ -15,8 +16,8 @@ function App() {
   useEffect(()=>{
      const fetch = async()=>{
       const result = await axios(`https://gateway.marvel.com/v1/public/characters?ts=1&apikey=344d40df0c8cc373141c1dc321fae9cf&hash=bd0722d5750b6362d5ba0212ca36726b`)
-      console.log(result.data);
-      setItems(result.data);
+      console.log(result.data.data.results);
+      setItems(result.data.data.results);
       setLoading(false)
      }
 
@@ -27,6 +28,7 @@ function App() {
   return (
     <div className="App container">
       <Header />
+      <CharacterTable items={items} isLoading={isLoading}/>
     
     </div>
   );
