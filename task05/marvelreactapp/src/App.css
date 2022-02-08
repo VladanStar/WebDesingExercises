@@ -116,7 +116,7 @@ input[type='text'] {
 }
 
 .content-back {
-  background-color: #333;
+  background-color: rgb(103, 16, 202);
   color: white;
   padding: 20px;
   transform: rotateY(180deg);
