@@ -2,6 +2,7 @@ import React, {useState, useEffect} from "react"
 import './App.css';
 import Header from "./component/Header/Header";
 import CharacterTable from "./component/CharacterTable/CharacterTable";
+import Search from "./component/Search/Search";
 import axios from "axios";
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
   return (
     <div className="App container">
       <Header />
+      <Search />
       <CharacterTable items={items} isLoading={isLoading}/>
     
     </div>
