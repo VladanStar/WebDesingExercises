@@ -10,7 +10,7 @@ export const ContactList = (props) => {
     props.getContactId(id);
   };
 
-  const renderContactList = props.contacts.map((contact) => {
+  const renderContactList = props.contacts.map((contact, id) => {
     return (
       <ContactCard
         contact={contact}
