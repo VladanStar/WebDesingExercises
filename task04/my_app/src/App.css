@@ -1,0 +1,65 @@
+body {
+  background-color: blueviolet;
+}
+
+.main {
+  margin-top: 5em;
+}
+
+.center {
+  justify-content: center;
+  padding: 10px;
+}
+
+.ui.search input {
+  width: 100%;
+  border-radius: 0 !important;
+}
+
+.item {
+  padding: 15px 0px !important;
+  display: flex;
+ ;
+}
+
+i.icon {
+  float: right;
+  font-size: 20px;
+  cursor: pointer;
+}
+.celled {
+  flex-direction: column;
+ justify-content: space-between;
+ align-items: center;
+}
+.list {
+  flex-grow: 1;
+}
+.field {
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 4;
+  padding: 20px;
+  margin: 50px;
+}
+label {
+  padding: 20px;
+  margin: 50px;
+}
+.content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container :first-child{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.container  {
+ float: right;
+}
