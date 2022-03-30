@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Allan&family=Montserrat:wght@100&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allan&family=Montserrat:wght@100&family=Roboto&display=swap');
 
+* {
+    font-family: sans-serif;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+
+}
 #product-overview {
     background: red;
 }
