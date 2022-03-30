@@ -1,21 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Allan&family=Montserrat:wght@100&family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Allan&family=Montserrat:wght@100&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Allan&family=Montserrat:wght@100&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allan&family=Montserrat:wght@100&family=Roboto&display=swap");
 
 * {
-    font-family: sans-serif;
+  font-family: sans-serif;
 }
 body {
-    font-family: 'Montserrat', sans-serif;
-
+  font-family: "Montserrat", sans-serif;
 }
 #product-overview {
-    background: red;
+  background: red;
+  font-family: "Allan", cursive;
 }
 
+#product-overview h1 {
+  color: white;
+  font-family: A;
+}
 h1 {
-    color:cadetblue;
-    font-family: 'Allan', cursive;
+  color: cadetblue;
+
+  font-family: inherit;
 }
 .section-title {
-    color: #2ddf2d;
+  color: #2ddf2d;
 }
