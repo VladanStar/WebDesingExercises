@@ -49,7 +49,7 @@ h1 {
 .main-nav {
   display: inline-block;
   text-align: right;
-  width: 100%;
+  width: calc(100% - 50px);
 }
 .main-header >div {
   display: inline-block;
