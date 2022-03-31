@@ -54,6 +54,7 @@ h1 {
 .main-nav__item a {
   text-decoration: none;
   color: blueviolet;
+  padding: 10px;
 
  
 }
@@ -83,4 +84,9 @@ p::first-letter {
 .main-nav__item a::after {
   content: " (Link)";
   color: blue;
+}
+.main-nav__item--ctaa {
+  color:white;
+  background: rebeccapurple;
+  padding: 10px;
 }
