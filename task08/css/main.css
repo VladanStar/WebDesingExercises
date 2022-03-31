@@ -40,9 +40,16 @@ h1 {
 .main-nav__item {
   display: inline-block;
 }
+.main-nav__item {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
 .main-nav {
   display: inline-block;
+  text-align: right;
+  width: 100%;
 }
 .main-header >div {
   display: inline-block;
