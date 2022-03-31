@@ -47,9 +47,21 @@ h1 {
 }
 
 .main-nav__item {
-  margin: 0;
-  padding: 0;
+  margin: 0 16px;
+  /* padding: 10px; */
   list-style: none;
+}
+.main-nav__item a {
+  text-decoration: none;
+  color: blueviolet;
+  font-weight: bold;
+}
+.main-nav__item a:hover {
+  color: red;
+}
+.main-nav__item a:active {
+  color: #2ddf2d;
+
 }
 
 .main-nav {
@@ -60,4 +72,12 @@ h1 {
 .main-header >div {
   display: inline-block;
   vertical-align: middle;
+}
+p::first-letter {
+  color:#2ddf2d
+}
+.main-nav__item a::after {
+  content: " (Link)";
+  color:blue
+
 }
