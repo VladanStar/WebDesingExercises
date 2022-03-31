@@ -34,8 +34,16 @@ h1 {
   background-color: #2ddf2d;
   width: 100%;
   padding: 9px 16px ;
+  display: inline=block;
 
 }
 .main-nav__item {
+  display: inline-block;
+}
+
+.main-nav {
+  display: inline-block;
+}
+.main-header >div {
   display: inline-block;
 }
