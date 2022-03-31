@@ -9,7 +9,9 @@ body {
   margin: 0;
 }
 #product-overview {
-  background: red;
+  /* background: red; */
+  background-image:  url("../../task08/img/freedom.jpg");
+  background-size: cover;
   font-family: "Allan", cursive;
   padding: 20px;
   border: 5px solid black;
@@ -85,8 +87,15 @@ p::first-letter {
   content: " (Link)";
   color: blue;
 }
-.main-nav__item--ctaa {
+.main-nav__item--cta a {
   color:white;
   background: rebeccapurple;
   padding: 10px;
+  border-radius: 5px;
+}
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active {
+  background: orange;
+  color: red;
+  border: none;
 }
