@@ -24,6 +24,21 @@ body {
   color: white;
   font-family: A;
 }
+.plan {
+  background: #d5ffdc;
+  text-align: center;
+  padding: 16px;
+  margin: 8px;
+  display: inline-block;
+  width: 30%;
+  vertical-align: middle;
+}
+
+.plan--highlighted {
+  background-color: #2ddf2d;
+  color: #d5ffdc; 
+  box-shadow: 2px 2px 2px 2px blueviolet;
+}
 h1 {
   color: cadetblue;
 
@@ -31,6 +46,7 @@ h1 {
 }
 .section-title {
   color: #2ddf2d;
+  text-align: center;
 }
 .main-header {
   background-color: #2ddf2d;
