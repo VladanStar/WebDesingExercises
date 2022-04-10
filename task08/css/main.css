@@ -39,6 +39,17 @@ body {
   color: #d5ffdc; 
   box-shadow: 2px 2px 2px 2px blueviolet;
 }
+.plan__annotation {
+  background: white;
+  color: #2ddf2d;
+  padding: 8px;
+  box-shadow: 2px 2px 2px 2px blueviolet;
+  border-radius: 8px;
+
+}
+.plan__features {
+  list-style-type: none;
+}
 h1 {
   color: cadetblue;
 
