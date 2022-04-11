@@ -64,6 +64,15 @@ body {
 .plan__features li {
   margin: 8px 0px;
 }
+.button {
+  background: #2ddf2d;
+  color: whitesmoke;
+  /* font-family: 'Courier New', Courier, monospace; */
+  font:inherit;
+  border: 1.5px solid #2ddf2d;
+  padding: 8px;
+  border-radius: 8px;
+}
 h1 {
   color: cadetblue;
 
