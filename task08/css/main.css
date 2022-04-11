@@ -65,13 +65,23 @@ body {
   margin: 8px 0px;
 }
 .button {
-  background: #2ddf2d;
+  background: darkgreen;
   color: whitesmoke;
   /* font-family: 'Courier New', Courier, monospace; */
   font:inherit;
   border: 1.5px solid #2ddf2d;
   padding: 8px;
   border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.button:hover,
+.button:active {
+  background: whitesmoke;
+  color: darkgreen;
+}
+.button:focus {
+  outline: none;
 }
 h1 {
   color: cadetblue;
