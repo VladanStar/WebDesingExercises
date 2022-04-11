@@ -194,3 +194,10 @@ p::first-letter {
   color: red;
   border: none;
 }
+.main-footer {
+  background: cadetblue;
+  color: antiquewhite;
+  padding: 32px;
+  margin-top: 48px;
+}
+
