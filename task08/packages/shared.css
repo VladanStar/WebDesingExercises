@@ -118,4 +118,48 @@ body {
   }
   .button:focus {
     outline: none;
+  }main {
+      padding-top: 32px;
+  }
+  .package {
+      width: 80%;
+      margin: 16px 0;
+      border: 4px solid #45470b;
+      border-left: none;
+  }
+  .package a {
+      text-decoration: none;
+      color: inherit;
+      display: block;
+      padding: 32px;
+  }
+  .package__subtitle {
+      color: cornflowerblue;
+  }
+  .package__info {
+      padding: 16px;
+      border: 1px solid blue;
+      font-size: 20px;
+      color: blueviolet;
+      background: whitesmoke;
+  }
+  #plus {
+      background: rgba(213,255,220,0.95);
+  }
+  #free {
+      background: rgba(234,253,237,0.95);
+  } 
+  #premium {
+      background: rgba(14,79,31,0.95);
+  }
+  #premium .package__title {
+      color: aliceblue;
+  }
+  #premium .package__subtitle {
+      color:aliceblue;
+  }
+  .package:hover,
+  .package:active {
+      box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+      border-color: #ff5454;
   }
