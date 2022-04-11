@@ -33,7 +33,12 @@ body {
   width: 30%;
   vertical-align: middle;
 }
-
+.plan__list {
+  width: 80%;
+  margin:  0 auto;
+  text-align: center;
+  display: inline;
+}
 .plan--highlighted {
   background-color: #2ddf2d;
   color: #d5ffdc; 
