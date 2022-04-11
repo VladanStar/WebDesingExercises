@@ -83,6 +83,33 @@ body {
 .button:focus {
   outline: none;
 }
+#key-features {
+  background: rgb(238, 16, 138);
+  margin-top: 80px;
+  padding: 16px;
+}
+
+.key-features__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.key-features {
+  display: inline-block;
+  width: 30%;
+}
+.key-features__description {
+  text-align: center;
+  font-weight: bolder;
+  color: antiquewhite !important; 
+  font-size: 20px;
+  
+}
+#key-features .section-title {
+  color: whitesmoke;
+  margin: 32px;
+} 
 h1 {
   color: cadetblue;
 
