@@ -47,8 +47,22 @@ body {
   border-radius: 8px;
 
 }
+.plan__title{
+  color: #2ddf2d;
+}
+.plan__price {
+  color: gray;
+}
+ .plan--highlighted .plan__price {
+   color: whitesmoke;
+ }
 .plan__features {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.plan__features li {
+  margin: 8px 0px;
 }
 h1 {
   color: cadetblue;
