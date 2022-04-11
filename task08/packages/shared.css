@@ -1,0 +1,110 @@
+.main-header {
+    background-color: #2ddf2d;
+    width: 100%;
+    padding: 9px 16px;
+    display: inline=block;
+  }
+  .main-header__brand {
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 22px;
+  }
+  .main-nav__item {
+    display: inline-block;
+  }
+  
+  .main-nav__item {
+    margin: 0 16px;
+    /* padding: 10px; */
+    list-style: none;
+  }
+  .main-nav__item a {
+    text-decoration: none;
+    color: blueviolet;
+    padding: 10px;
+  
+   
+  }
+  .main-nav__item a:hover {
+    color: red;
+    font-weight: bold;
+    border-bottom:2px solid  burlywood;
+  
+  }
+  .main-nav__item a:active {
+    color: #2ddf2d;
+   
+  }
+  .main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 70px);
+  }
+  .main-header > div {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  p::first-letter {
+    color: #2ddf2d;
+  }
+  .main-nav__item a::after {
+    content: " (Link)";
+    color: blue;
+  }
+  .main-nav__item--cta a {
+    color:white;
+    background: rebeccapurple;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .main-nav__item--cta a:hover,
+  .main-nav__item--cta a:active {
+    background: orange;
+    color: red;
+    border: none;
+  }
+  .main-footer {
+    background: cadetblue;
+    color: antiquewhite;
+    padding: 32px;
+    margin-top: 48px;
+  }
+  .main-footer__links {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+  
+  }
+  .main-footer__link {
+  display: inline-block;
+  margin: 0px 16px;
+  }
+  .main-footer__link a {
+    color: whitesmoke;
+    text-decoration: none;
+  }
+  .main-footer__link a:hover,
+  .main-footer__link a:active {
+    color:darkorchid;
+  }
+  .button {
+    background: darkgreen;
+    color: whitesmoke;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font:inherit;
+    border: 1.5px solid #2ddf2d;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .button:hover,
+  .button:active {
+    background: whitesmoke;
+    color: darkgreen;
+  }
+  .button:focus {
+    outline: none;
+  }
