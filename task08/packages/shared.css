@@ -148,6 +148,10 @@ body {
   }
   #free {
       background: rgba(234,253,237,0.95);
+      float: right;
+      border-right: none;
+      border-left: 4px solid #45470b;
+      text-align: right;
   } 
   #premium {
       background: rgba(14,79,31,0.95);
@@ -162,4 +166,7 @@ body {
   .package:active {
       box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
       border-color: #ff5454;
+  }
+  .clearfix {
+      clear: both;
   }
