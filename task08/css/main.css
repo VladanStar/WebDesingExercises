@@ -24,7 +24,9 @@ body {
   color: white;
   font-family: A;
 }
-
+.main-header {
+  position: fixed;
+}
 .plan {
   background: #d5ffdc;
   text-align: center;

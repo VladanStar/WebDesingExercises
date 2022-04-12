@@ -8,15 +8,13 @@ body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
 }
-.main-header {
-  position: fixed;
-}
 
 .main-header {
     background-color: #2ddf2d;
     width: 100%;
     padding: 9px 16px;
     display: inline=block;
+    position: fixed;
   }
   .main-header__brand {
     color: blue;
