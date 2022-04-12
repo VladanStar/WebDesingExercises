@@ -8,7 +8,13 @@ body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
 }
-
+.background {
+  background-image: url("../img/plans-background.jpg");
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
 .main-header {
     background-color: #2ddf2d;
     width: 100%;
@@ -130,6 +136,7 @@ body {
       margin: 16px 0;
       border: 4px solid #45470b;
       border-left: none;
+    
   }
   .package a {
       text-decoration: none;
@@ -146,6 +153,12 @@ body {
       font-size: 20px;
       color: blueviolet;
       background: whitesmoke;
+  }
+
+  .package__badge {
+    position: fixed;
+    top: 0;
+    left: 0;
   }
   #plus {
       background: rgba(213,255,220,0.95);
