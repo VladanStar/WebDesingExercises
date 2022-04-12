@@ -12,9 +12,12 @@ body {
 .main-header {
     background-color: #2ddf2d;
     width: 100%;
+  
     padding: 9px 16px;
     display: inline=block;
     position: fixed;
+    top: 0px;
+    left: 0px;
   }
   .main-header__brand {
     color: blue;
