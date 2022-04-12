@@ -156,9 +156,10 @@ body {
   }
 
   .package__badge {
-    position: fixed;
-    top: 0;
-    left: 0;
+    position: absolute;
+    top: 50px;
+    left: 400px;
+    margin: 20px;
   }
   #plus {
       background: rgba(213,255,220,0.95);
