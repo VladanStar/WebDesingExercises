@@ -12,6 +12,9 @@ body {
   /* background: red; */
   background-image:  url("../../task08/img/freedom.jpg");
   background-size: cover;
+  width: 100%;
+  height:208px;
+  background-repeat: no-repeat;
   font-family: "Allan", cursive;
   padding: 20px;
   border: 5px solid black;
