@@ -25,7 +25,8 @@ let rightBtn = document.querySelector("#right-btn");
 let leftBtn = document.querySelector("#left-btn");
 let pictures = document.querySelectorAll(".slider-images img");
 let imgNum = 0;
-rightBtn.addEventListener("click", () => {
+
+const moveRight = () => {
     displayNone();
     imgNum++;
 
@@ -33,21 +34,25 @@ rightBtn.addEventListener("click", () => {
         imgNum = 0;
     }
 
-  console.log("Right");
-  console.log(pictures);
+    console.log("Right");
+    console.log(pictures);
     //   pictures[0].style.display = "none";
-    pictures[imgNum].style.display = "block";
-   
-});
-leftBtn.addEventListener("click", () => {
+    pictures[imgNum].style.display = "block";  
+}
+rightBtn.addEventListener("click", moveRight);
+const moveLeft = () => {
     displayNone();
     imgNum--;
     console.log(imgNum)
     if (imgNum === -1) {
         imgNum = pictures.length - 1;
     }
-  console.log("Left");
-});
+    console.log("Left");
+    console.log(pictures);
+    //   pictures[0].style.display = "none";
+    pictures[imgNum].style.display = "block";
+}
+leftBtn.addEventListener("click", moveLeft);
 /*
 Ova funkcija sakriva sve sle
  */
