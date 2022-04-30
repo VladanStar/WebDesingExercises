@@ -61,3 +61,27 @@ const displayNone = () => {
     img.style.display = "none";
   });
 };
+
+/*
+Data-Category Portfolio Sort
+*/
+const portfolioSort = (button) => {
+    console.log(button)
+    let category = button.getAttribute("data-category");
+    console.log(category);
+    let portfolioItems = document.querySelectorAll('.portfolio-single-item');
+
+    portfolioItems.forEach((item) => {
+        item.style.display = "none"
+    });
+
+    
+
+    portfolioItems.forEach((item) => {
+        if (item.getAttribute('data-category').includes(category)) {
+            item.style.display ="block"
+        }
+        
+    })
+    
+}
