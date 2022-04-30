@@ -1,3 +1,7 @@
+
+/*
+Response Header
+*/
 const mobileMenu = () => {
     console.log("Test");
     let menu = document.querySelector('.header ul');
@@ -15,6 +19,17 @@ const mobileMenu = () => {
 
         btn.innerHTML = "MENU"
     }
-
    
 }
+/*
+Galerija
+*/
+let rightBtn = document.querySelector("#right-btn");
+let leftBtn = document.querySelector('#left-btn');
+
+rightBtn.addEventListener('click', () => {
+    console.log("Right")
+})
+leftBtn.addEventListener("click", () => {
+    console.log("Left");
+})
