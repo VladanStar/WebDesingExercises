@@ -4,6 +4,18 @@ const mobileMenu = () => {
     let btn = document.querySelector('.header button');
 
     console.log(menu);
-    menu.style.display = 'block';
-    btn.innerHTML="CLOSE"
+    if (btn.innerText === "MENU") {
+        console.log("MENU write");
+        menu.style.display = 'block';
+
+        btn.innerHTML = "CLOSE"
+    }
+    else {
+        console.log("CLOSE write");
+        menu.style.display = 'none';
+
+        btn.innerHTML = "MENU"
+    }
+
+   
 }
