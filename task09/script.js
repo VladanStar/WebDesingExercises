@@ -7,7 +7,6 @@ const mobileMenu = () => {
     if (btn.innerText === "MENU") {
         console.log("MENU write");
         menu.style.display = 'block';
-
         btn.innerHTML = "CLOSE"
     }
     else {
