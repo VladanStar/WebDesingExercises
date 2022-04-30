@@ -27,37 +27,37 @@ let pictures = document.querySelectorAll(".slider-images img");
 let imgNum = 0;
 
 const moveRight = () => {
-    displayNone();
-    imgNum++;
+  displayNone();
+  imgNum++;
 
-    if (imgNum === pictures.length) {
-        imgNum = 0;
-    }
+  if (imgNum === pictures.length) {
+    imgNum = 0;
+  }
 
-    console.log("Right");
-    console.log(pictures);
-    //   pictures[0].style.display = "none";
-    pictures[imgNum].style.display = "block";  
-}
+  console.log("Right");
+  console.log(pictures);
+  //   pictures[0].style.display = "none";
+  pictures[imgNum].style.display = "block";
+};
 rightBtn.addEventListener("click", moveRight);
 const moveLeft = () => {
-    displayNone();
-    imgNum--;
-    console.log(imgNum)
-    if (imgNum === -1) {
-        imgNum = pictures.length - 1;
-    }
-    console.log("Left");
-    console.log(pictures);
-    //   pictures[0].style.display = "none";
-    pictures[imgNum].style.display = "block";
-}
+  displayNone();
+  imgNum--;
+  console.log(imgNum);
+  if (imgNum === -1) {
+    imgNum = pictures.length - 1;
+  }
+  console.log("Left");
+  console.log(pictures);
+  //   pictures[0].style.display = "none";
+  pictures[imgNum].style.display = "block";
+};
 leftBtn.addEventListener("click", moveLeft);
 /*
 Ova funkcija sakriva sve sle
  */
 const displayNone = () => {
-    pictures.forEach((img) => {
-        img.style.display = "none";
-    })
-}
+  pictures.forEach((img) => {
+    img.style.display = "none";
+  });
+};
