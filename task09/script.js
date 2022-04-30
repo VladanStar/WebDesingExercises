@@ -26,11 +26,33 @@ let leftBtn = document.querySelector("#left-btn");
 let pictures = document.querySelectorAll(".slider-images img");
 let imgNum = 0;
 rightBtn.addEventListener("click", () => {
+    displayNone();
+    imgNum++;
+
+    if (imgNum === pictures.length) {
+        imgNum = 0;
+    }
+
   console.log("Right");
   console.log(pictures);
-  pictures[0].style.display = "none";
-  pictures[1].style.display = "block";
+    //   pictures[0].style.display = "none";
+    pictures[imgNum].style.display = "block";
+   
 });
 leftBtn.addEventListener("click", () => {
+    displayNone();
+    imgNum--;
+    console.log(imgNum)
+    if (imgNum === -1) {
+        imgNum = pictures.length - 1;
+    }
   console.log("Left");
 });
+/*
+Ova funkcija sakriva sve sle
+ */
+const displayNone = () => {
+    pictures.forEach((img) => {
+        img.style.display = "none";
+    })
+}
