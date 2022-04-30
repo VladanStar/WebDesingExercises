@@ -86,3 +86,23 @@ const portfolioSort = (button) => {
     }
   });
 };
+
+/* 
+Modal
+*/
+const openModal = () => {
+    console.log("Test");
+    let modalWndow = document.querySelector(".popup-modal");
+    let overlay = document.querySelector(".overlay")
+    overlay.style.display = 'block'
+    modalWndow.style.display = "block";
+
+}
+
+const closeModal = () => {
+    console.log("Test");
+    let modalWndow = document.querySelector(".popup-modal");
+    let overlay = document.querySelector(".overlay")
+    overlay.style.display = 'none'
+    modalWndow.style.display = "none";
+}
