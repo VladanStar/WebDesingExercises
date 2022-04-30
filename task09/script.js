@@ -66,22 +66,23 @@ const displayNone = () => {
 Data-Category Portfolio Sort
 */
 const portfolioSort = (button) => {
-    console.log(button)
-    let category = button.getAttribute("data-category");
-    console.log(category);
-    let portfolioItems = document.querySelectorAll('.portfolio-single-item');
+  console.log(button);
+  let category = button.getAttribute("data-category");
+  console.log(category);
+  let portfolioItems = document.querySelectorAll(".portfolio-single-item");
 
+  portfolioItems.forEach((item) => {
+    item.style.display = "none";
+  });
+  if (category === "sve") {
     portfolioItems.forEach((item) => {
-        item.style.display = "none"
+      item.style.display = "block";
     });
+  }
 
-    
-
-    portfolioItems.forEach((item) => {
-        if (item.getAttribute('data-category').includes(category)) {
-            item.style.display ="block"
-        }
-        
-    })
-    
-}
+  portfolioItems.forEach((item) => {
+    if (item.getAttribute("data-category").includes(category)) {
+      item.style.display = "block";
+    }
+  });
+};
