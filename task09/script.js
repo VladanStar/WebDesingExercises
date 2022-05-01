@@ -11,6 +11,7 @@ const mobileMenu = () => {
     console.log("MENU write");
     menu.style.display = "block";
     menu.style.width = "40%";
+  
     btn.innerHTML = "CLOSE";
   } else {
     console.log("CLOSE write");
