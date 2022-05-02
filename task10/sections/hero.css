@@ -8,18 +8,31 @@ section.hero h1 {
 
 section.hero h1 span {
   font-weight: 600;
-  background-image: -webkit-linear-gradient(90deg, #ffa5a1 10%, #9c4bff 50%, #40beff 90%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-animation: hue 10s infinite linear;
+  -webkit-animation: color-change 7s infinite;
+          animation: color-change 7s infinite;
 }
 
-@-webkit-keyframes hue {
-  from {
-    -webkit-filter: hue-rotate(0deg);
+@-webkit-keyframes color-change {
+  0% {
+    color: red;
   }
-  to {
-    -webkit-filter: hue-rotate(-360deg);
+  50% {
+    color: blue;
+  }
+  100% {
+    color: red;
+  }
+}
+
+@keyframes color-change {
+  0% {
+    color: red;
+  }
+  50% {
+    color: blue;
+  }
+  100% {
+    color: red;
   }
 }
 /*# sourceMappingURL=hero.css.map */
