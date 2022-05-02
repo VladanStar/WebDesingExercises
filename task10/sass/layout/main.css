@@ -21,6 +21,10 @@ header nav ul a {
   text-decoration: none;
 }
 
+header nav ul a:hover {
+  text-decoration: underline;
+}
+
 header nav ul img {
   width: 150px;
   height: 70px;
