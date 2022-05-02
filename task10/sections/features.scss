@@ -1,4 +1,7 @@
 section.features {
  display: flex;  
- justify-content: space-between; 
+ 
+.features-item {
+     justify-content: space-around;
+ }
 }
