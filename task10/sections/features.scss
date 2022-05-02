@@ -1,7 +1,15 @@
 section.features {
- display: flex;  
+ display: flex;
+ justify-content: space-evenly;
+ text-align: center;
+ color: #fff;  
  
 .features-item {
-     justify-content: space-around;
+  
+    p {
+        max-width: 30%;
+        margin: auto;
+    }
+   
  }
 }

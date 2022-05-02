@@ -2,10 +2,15 @@ section.features {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-align: center;
+  color: #fff;
 }
 
-section.features .features-item {
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+section.features .features-item p {
+  max-width: 30%;
+  margin: auto;
 }
 /*# sourceMappingURL=features.css.map */
