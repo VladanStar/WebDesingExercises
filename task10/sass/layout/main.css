@@ -2,14 +2,12 @@ body {
   background-color: lightgreen;
 }
 
-header nav ul li {
-  background-color: aqua;
+header {
+  border: 1px solid violet;
 }
-
 header nav {
   padding: 15px;
 }
-
-header {
-  border: 1px solid black;
+header nav ul li {
+  background-color: blue;
 }/*# sourceMappingURL=main.css.map */
