@@ -12,21 +12,42 @@ header nav ul {
 
 header nav ul li {
   display: inline-block;
+  margin-left: 30px;
+  position: relative;
+  top: -20px;
 }
 
-header nav ul a {
+header nav ul li:first-child {
+  top: -6px;
+}
+
+header nav ul li:first-child:hover:after {
+  display: none;
+}
+
+header nav ul li a {
   color: white;
   font-size: 16px;
   text-transform: uppercase;
   text-decoration: none;
   font-family: "Roboto", sans-serif;
+  position: relative;
 }
 
-header nav ul a:hover {
-  text-decoration: underline;
+header nav ul li a:hover::after {
+  display: block;
 }
 
-header nav ul img {
+header nav ul li a:after {
+  content: "";
+  display: none;
+  background-color: #fff;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+}
+
+header nav ul li img {
   width: 150px;
   height: 70px;
 }

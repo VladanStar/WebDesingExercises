@@ -7,22 +7,49 @@ header {
       list-style: none;
       li {
         display: inline-block;
-      }
+        margin-left: 30px;
+        position: relative;
+       top: -20px;
+
+        &:first-child {
+            top: -6px;
+
+            &:hover {
+                &:after{
+                display: none;
+            }
+        }
+        }
+    
       a {
         color: white;
         font-size: 16px;
         text-transform: uppercase;
         text-decoration: none;
         font-family: $roboto;
+        position: relative;
 
         &:hover {
-          text-decoration: underline;
+        &::after {
+           display: block;
+        }
+        }
+        &:after {
+            content: "";
+            display: none;
+            background-color: #fff;
+            height: 2px;
+            width: 100%;
+            position: absolute;
+           
         }
       }
       img {
         width: 150px;
         height: 70px;
       }
+    
     }
+}
   }
 }
