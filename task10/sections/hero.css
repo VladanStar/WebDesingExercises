@@ -1,8 +1,36 @@
-section.hero h1 {
+.hero h1 {
   font-size: 68px;
-  font-weight: 300;
+  font-weight: 300px;
   text-transform: uppercase;
-  color: span;
-  color-font-weight: 600;
+  color: #fff;
+  letter-spacing: 8px;
+}
+
+.hero h1 span {
+  font-weight: 600;
+  background: -webkit-gradient(linear, left top, right top, color-stop(10%, #ffa5a1), color-stop(50%, #9c4bff), color-stop(90%, #40beff));
+  background: linear-gradient(90deg, #ffa5a1 10%, #9c4bff 50%, #40beff 90%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: hue 4s infinite linear;
+          animation: hue 4s infinite linear;
+}
+
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+
+@keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
 }
 /*# sourceMappingURL=hero.css.map */
