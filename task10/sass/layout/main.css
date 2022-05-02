@@ -5,9 +5,11 @@ header {
 header {
   border: 1px solid violet;
 }
+
 header nav {
   padding: 15px;
 }
+
 header nav ul li {
   background-color: cadetblue;
 }
@@ -19,4 +21,5 @@ header nav ul li {
 
 body {
   background-color: lightgreen;
-}/*# sourceMappingURL=main.css.map */
+}
+/*# sourceMappingURL=main.css.map */
