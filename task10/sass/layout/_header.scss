@@ -2,8 +2,19 @@ header {
   background-color: #000;
 
   .pre-header {
-      background: linear-gradient(to right, rgba(6,6,6,1) 8%, rgba(46,46,46,1) 100%);
+    background-image: linear-gradient(to right, rgba(71, 70, 70, 0), rgb(102, 95, 95));
       height: 30px;
+ 
+      ul {
+          list-style: none;
+          float: right;
+          li {
+              display:inline-block;
+            a{
+              color: #fff;
+            }
+          }
+      }
   }
 
   nav {

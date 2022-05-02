@@ -3,9 +3,22 @@ header {
 }
 
 header .pre-header {
-  background: -webkit-gradient(linear, left top, right top, color-stop(8%, #060606), to(#2e2e2e));
-  background: linear-gradient(to right, #060606 8%, #2e2e2e 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(71, 70, 70, 0)), to(#665f5f));
+  background-image: linear-gradient(to right, rgba(71, 70, 70, 0), #665f5f);
   height: 30px;
+}
+
+header .pre-header ul {
+  list-style: none;
+  float: right;
+}
+
+header .pre-header ul li {
+  display: inline-block;
+}
+
+header .pre-header ul li a {
+  color: #fff;
 }
 
 header nav {
