@@ -5,31 +5,17 @@ section.hero {
     text-transform: uppercase;
     color: #fff;
     letter-spacing: 8px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
 
     span {
       font-weight: 600;
-    //   background-image: -webkit-linear-gradient(
-    //     90deg,
-    //     rgba(255, 165, 161, 1) 10%,
-    //     rgba(156, 75, 255, 1) 50%,
-    //     rgba(64, 190, 255, 1) 90%
-    //   );
-    // //   -webkit-background-clip: text;
-    //    -webkit-text-fill-color: transparent;
-    //   -webkit-animation: hue 10s infinite linear;
     animation: color-change 7s infinite;
     
   }
 }
 }
-// @-webkit-keyframes hue {
-//     from {
-//       -webkit-filter: hue-rotate(0deg);
-//     }
-//     to {
-//       -webkit-filter: hue-rotate(-360deg);
-//     }
-//   }
 @keyframes color-change {
     0% { color: red; }
     50% { color: blue; }

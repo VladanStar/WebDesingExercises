@@ -96,6 +96,9 @@ section.hero h1 {
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 8px;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
 
 section.hero h1 span {
