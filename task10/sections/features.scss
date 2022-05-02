@@ -3,11 +3,20 @@ section.features {
  justify-content: space-evenly;
  text-align: center;
  color: #fff;  
+ background-image: linear-gradient(to top, #1b1b1b 8%, #373737 100%);
+ padding-bottom: 100px;
  
 .features-item {
+    margin-top: -200px;
+    z-index: 99;
+    img {
+        width: 500px;
+        margin-bottom: 50px;
+    }
   
     p {
         max-width: 30%;
+        letter-spacing: 2px;
         margin: auto;
     }
    

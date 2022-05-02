@@ -7,10 +7,24 @@ section.features {
           justify-content: space-evenly;
   text-align: center;
   color: #fff;
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(8%, #1b1b1b), to(#373737));
+  background-image: linear-gradient(to top, #1b1b1b 8%, #373737 100%);
+  padding-bottom: 100px;
+}
+
+section.features .features-item {
+  margin-top: -200px;
+  z-index: 99;
+}
+
+section.features .features-item img {
+  width: 500px;
+  margin-bottom: 50px;
 }
 
 section.features .features-item p {
   max-width: 30%;
+  letter-spacing: 2px;
   margin: auto;
 }
 /*# sourceMappingURL=features.css.map */

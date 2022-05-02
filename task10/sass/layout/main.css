@@ -135,13 +135,41 @@ section.features {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   text-align: center;
   color: #fff;
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(8%, #1b1b1b), to(#373737));
+  background-image: linear-gradient(to top, #1b1b1b 8%, #373737 100%);
+  padding-bottom: 100px;
 }
 
 section.features .features-item {
-  max-width: 300px;
+  margin-top: -200px;
+  z-index: 99;
+}
+
+section.features .features-item img {
+  width: 500px;
+  margin-bottom: 50px;
+}
+
+section.features .features-item p {
+  max-width: 30%;
+  letter-spacing: 2px;
+  margin: auto;
+}
+
+section.products {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+section.products h2 {
+  max-width: 800px;
+  text-align: center;
+  margin: auto;
+  color: #fff;
 }
 /*# sourceMappingURL=main.css.map */
