@@ -3,8 +3,8 @@ header {
 }
 
 header .pre-header {
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(94, 90, 90, 0)), to(#8a7d7d));
-  background-image: linear-gradient(to right, rgba(94, 90, 90, 0), #8a7d7d);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(94, 90, 90, 0)), to(#3b3535));
+  background-image: linear-gradient(to right, rgba(94, 90, 90, 0), #3b3535);
   height: 30px;
 }
 
@@ -45,7 +45,7 @@ header nav ul li:first-child:hover:after {
 }
 
 header nav ul li a {
-  color: white;
+  color: #fff;
   font-size: 16px;
   text-transform: uppercase;
   text-decoration: none;
