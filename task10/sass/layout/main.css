@@ -2,6 +2,12 @@ header {
   background-color: #000;
 }
 
+header .pre-header {
+  background: -webkit-gradient(linear, left top, right top, color-stop(8%, #060606), to(#2e2e2e));
+  background: linear-gradient(to right, #060606 8%, #2e2e2e 100%);
+  height: 30px;
+}
+
 header nav {
   padding: 15px;
 }
@@ -34,7 +40,7 @@ header nav ul li a {
   position: relative;
 }
 
-header nav ul li a:hover::after {
+header nav ul li a:hover:after {
   display: block;
 }
 
