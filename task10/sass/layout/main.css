@@ -1,5 +1,5 @@
-body {
-  background-color: lightgreen;
+header {
+  background-color: aquamarine;
 }
 
 header {
@@ -9,5 +9,9 @@ header nav {
   padding: 15px;
 }
 header nav ul li {
-  background-color: blue;
+  background-color: cadetblue;
+}
+
+body {
+  background-color: lightgreen;
 }/*# sourceMappingURL=main.css.map */
