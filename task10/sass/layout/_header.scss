@@ -1,29 +1,28 @@
-
 header {
-    background-color: #000;
+  background-color: #000;
 
-    nav {
-        padding: 15px;
-        ul {
-            list-style: none;
-        li {
+  nav {
+    padding: 15px;
+    ul {
+      list-style: none;
+      li {
         display: inline-block;
-        }
-        a {
-            color: white;
-            font-size: 16px;
-            text-transform: uppercase;
-            text-decoration: none;
+      }
+      a {
+        color: white;
+        font-size: 16px;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-family: $roboto;
 
-            &:hover {
-                text-decoration: underline;
-
-            }
+        &:hover {
+          text-decoration: underline;
         }
-        img {
-            width: 150px;
-            height: 70px;
-        }
+      }
+      img {
+        width: 150px;
+        height: 70px;
+      }
     }
-    }
+  }
 }
