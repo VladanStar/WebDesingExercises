@@ -1,3 +1,15 @@
 body {
-  background-color: gray;
+  background-color: lightgreen;
+}
+
+header nav ul li {
+  background-color: aqua;
+}
+
+header nav {
+  padding: 15px;
+}
+
+header {
+  border: 1px solid black;
 }/*# sourceMappingURL=main.css.map */

@@ -1,3 +1,14 @@
 body {
-    background-color: gray;
+    background-color: lightgreen;
+
+header {
+    border: 1px solid violet;
+    nav {
+        padding: 15px;
+        ul {
+            li{
+                background-color: blue;
+            }
+        }
+    }
 }
