@@ -1,4 +1,4 @@
-.hero {
+section.hero {
   h1 {
     font-size: 68px;
     font-weight: 300px;
@@ -8,22 +8,20 @@
 
     span {
       font-weight: 600;
-      background: linear-gradient(
+      background-image: -webkit-linear-gradient(
         90deg,
         rgba(255, 165, 161, 1) 10%,
         rgba(156, 75, 255, 1) 50%,
         rgba(64, 190, 255, 1) 90%
       );
-      background-clip: text;
+      -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      animation: hue 4s infinite linear;
-    
-
+      -webkit-animation: hue 10s infinite linear;
     
   }
 }
 }
-@keyframes hue {
+@-webkit-keyframes hue {
     from {
       -webkit-filter: hue-rotate(0deg);
     }
