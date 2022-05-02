@@ -18,6 +18,7 @@ header .pre-header ul {
 
 header .pre-header ul li {
   display: inline-block;
+  margin-right: 20px;
 }
 
 header .pre-header ul li:first-child a {

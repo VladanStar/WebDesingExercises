@@ -17,6 +17,7 @@ header {
 
       li {
         display: inline-block;
+        margin-right: 20px;
         &:first-child {
           a {
             color: $orange;
