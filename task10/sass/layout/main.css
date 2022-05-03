@@ -192,6 +192,13 @@ section.features .features-item img {
   }
 }
 
+@media (max-width: 575px) {
+  section.features .features-item img {
+    width: 200px;
+    padding: 20px;
+  }
+}
+
 section.features .features-item p {
   max-width: 30%;
   letter-spacing: 2px;

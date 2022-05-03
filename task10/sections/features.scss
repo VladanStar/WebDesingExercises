@@ -5,7 +5,7 @@ section.features {
  color: #fff;  
  background-image: linear-gradient(to top, #1b1b1b 8%, #373737 100%);
  padding-bottom: 100px;
- 
+
  @media (max-width:$nd){
   display: block;
      
@@ -32,6 +32,11 @@ section.features {
             width:100%;
             
             }
+            @media (max-width:$sm){
+                width:100%;
+                padding: 20px;
+                
+                }
 
     }
 
