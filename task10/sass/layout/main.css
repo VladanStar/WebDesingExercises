@@ -42,7 +42,6 @@ header nav {
 header nav ul {
   list-style: none;
   padding-bottom: 10px;
-  float: left;
 }
 
 header nav ul li {
@@ -88,12 +87,8 @@ header nav ul li img {
 }
 
 header nav .nav-right-side {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  float: right;
+  text-align: left;
 }
 
 * {
