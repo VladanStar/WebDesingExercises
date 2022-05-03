@@ -13,12 +13,6 @@ section.products {
     font-weight: 360;
     margin-bottom: 70px;
 
-    @media (max-width:$sm){
-      font-size: 16px;
-      font-weight: 200;
-       padding: 20px;
-       
-       }
   }
   .container {
     display: flex;
