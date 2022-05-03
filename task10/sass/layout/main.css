@@ -87,7 +87,9 @@ header nav ul li img {
 }
 
 header nav .nav-right-side {
-  float: right;
+  position: absolute;
+  right: 100px;
+  top: 50px;
   text-align: left;
 }
 

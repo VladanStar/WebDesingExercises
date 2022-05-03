@@ -9,7 +9,7 @@ header {
     );
     height: 30px;
     padding-top: 15px;
-  
+
     ul {
       list-style: none;
       position: absolute;
@@ -88,10 +88,10 @@ header {
       }
     }
     .nav-right-side {
-      float: right;
+      position: absolute;
+      right: 100px;
+      top: 50px;
       text-align: left;
-     }
+    }
   }
-  
 }
-
