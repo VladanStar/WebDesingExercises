@@ -3,4 +3,9 @@ $(document).ready(function ($) {
     e.preventDefault();
     $(".search-wrapper").show();
   });
+
+  $("#close-search").click(function (e) {
+    e.preventDefault();
+    $(".search-wrapper").hide();
+  });
 });

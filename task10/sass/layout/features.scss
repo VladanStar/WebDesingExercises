@@ -1,6 +1,6 @@
 .search-wrapper {
     display: none;
-    position: absolute;
+    position: fixed;
     top:0;
     left:0;
     right:0;
@@ -10,6 +10,13 @@
     z-index: 103;
     text-align: center;
     padding: 150px;
+    a {
+        position: absolute;
+        top: 120px;
+        right: 120px;
+        color:white;
+        font-size: 22px;
+    }
     form {
         display: block;
         margin: auto;

@@ -93,6 +93,10 @@ header nav .nav-right-side {
   text-align: left;
 }
 
+header nav .nav-right-side a {
+  color: white;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -317,7 +321,7 @@ section.products .container .product-item .overlay a {
 
 .search-wrapper {
   display: none;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -327,6 +331,14 @@ section.products .container .product-item .overlay a {
   z-index: 103;
   text-align: center;
   padding: 150px;
+}
+
+.search-wrapper a {
+  position: absolute;
+  top: 120px;
+  right: 120px;
+  color: white;
+  font-size: 22px;
 }
 
 .search-wrapper form {
