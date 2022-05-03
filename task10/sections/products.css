@@ -73,4 +73,11 @@ section.products .container .product-item .overlay {
   bottom: 0;
   right: 0;
 }
+
+section.products .container .product-item .overlay a {
+  text-align: center;
+  display: block;
+  margin-top: 40px;
+  color: #fff;
+}
 /*# sourceMappingURL=products.css.map */
