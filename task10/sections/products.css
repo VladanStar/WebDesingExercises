@@ -29,19 +29,17 @@ section.products .container .product-item {
   color: #fff;
   width: 100%;
   height: 710px;
+  position: relative;
 }
 
 section.products .container .product-item:hover {
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  position: absolute;
-  right: 0;
-  left: 0;
 }
 
 section.products .container .product-item:hover .overlay {
   display: block;
-  opacity: 0.7;
+  opacity: 0.4;
 }
 
 section.products .container .product-item.product-keyboard {
@@ -68,6 +66,11 @@ section.products .container .product-item .product-info p {
 section.products .container .product-item .overlay {
   display: none;
   opacity: 0;
-  background: black;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
 /*# sourceMappingURL=products.css.map */

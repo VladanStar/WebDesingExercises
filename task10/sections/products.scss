@@ -13,55 +13,51 @@ section.products {
     margin-bottom: 70px;
   }
   .container {
-      display: flex;
+    display: flex;
 
     .product-item {
       justify-content: space-evenly;
-       transition: 0.3s;
-        color: #fff;
-        width: 100%;
-        height: 710px;
-       
-        &:hover {
-          transition: 0.3s;
-          position: absolute;
-          right: 0;
-          left: 0;
-          
-          .overlay {
-            display: block;
-            opacity: 0.7;
+      transition: 0.3s;
+      color: #fff;
+      width: 100%;
+      height: 710px;
+      position: relative;
 
-          }
-        }
+      &:hover {
+        transition: 0.3s;
 
-        &.product-keyboard {
-          background-image: url("https://cdn.shopify.com/s/files/1/0507/9688/8239/products/pdp_gallery_06_4bb3a949-40b0-48c2-a8ff-d20df93751aa_1200x@2x.png?v=1644259066");
-        }
-        &.product-headset {
-          background-image: url("https://i.shgcdn.com/112a9e4b-6640-488a-bc3c-1187fdfee650/-/format/auto/-/preview/3000x3000/-/quality/lighter/");
-        }
-        .product-info {
-            padding: 30px;
-            h3 {
-              font-size: 32px;
-              font-weight: 400;
-            }
-            p {
-              font-size: 18px;
-
-            }
-    
-        }
         .overlay {
-         
-            display: none;
-            opacity: 0;
-          background: black;
+          display: block;
+          opacity: 0.4;
         }
-       
       }
 
+      &.product-keyboard {
+        background-image: url("https://cdn.shopify.com/s/files/1/0507/9688/8239/products/pdp_gallery_06_4bb3a949-40b0-48c2-a8ff-d20df93751aa_1200x@2x.png?v=1644259066");
+      }
+      &.product-headset {
+        background-image: url("https://i.shgcdn.com/112a9e4b-6640-488a-bc3c-1187fdfee650/-/format/auto/-/preview/3000x3000/-/quality/lighter/");
+      }
+      .product-info {
+        padding: 30px;
+        h3 {
+          font-size: 32px;
+          font-weight: 400;
+        }
+        p {
+          font-size: 18px;
+        }
+      }
+      .overlay {
+        display: none;
+        opacity: 0;
+        background-color: black;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+      }
+    }
   }
- 
 }
