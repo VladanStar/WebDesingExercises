@@ -28,7 +28,8 @@ section.products {
 
         .overlay {
           display: block;
-          opacity: 0.4;
+          // opacity: 0.4;
+          background-color:rgba (0,0,0, 0.4);
         }
       }
 
@@ -50,8 +51,8 @@ section.products {
       }
       .overlay {
         display: none;
-        opacity: 0;
-        background-color: black;
+        // opacity: 0;
+        background-color:rgba (0,0,0, 0);
         position: absolute;
         top: 0;
         left: 0;
@@ -60,8 +61,12 @@ section.products {
         a {
           text-align: center;
           display: block;
-          margin-top: 40px;
-          color: #fff;
+          margin: auto;
+          margin-top: 45%;
+          color: black;
+          background: white;
+          width: 130px;
+          padding: 10px;
         }
       }
     }
