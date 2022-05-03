@@ -116,7 +116,7 @@ section.hero h1 {
   section.hero h1 {
     font-size: 24px;
     font-weight: 200;
-    padding: 20px;
+    padding: 10px;
   }
 }
 
@@ -224,6 +224,14 @@ section.features .features-item p {
 section.products {
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+@media (max-width: 575px) {
+  section.products {
+    font-size: 24px;
+    font-weight: 200;
+    padding: 20px;
+  }
 }
 
 section.products h2 {
