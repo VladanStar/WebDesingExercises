@@ -314,4 +314,12 @@ section.products .container .product-item .overlay a {
   padding: 10px;
   text-decoration: none;
 }
+
+.search-wrapper {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
 /*# sourceMappingURL=main.css.map */
