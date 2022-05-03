@@ -25,11 +25,7 @@ section.products {
       height: 710px;
       position: relative;
 
-      @media (max-width:$md){
-       height: 470px;
-       background-size: cover;
-         
-         }
+     
 
       &:hover {
         transition: 0.3s;

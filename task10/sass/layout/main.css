@@ -42,6 +42,7 @@ header nav {
 header nav ul {
   list-style: none;
   padding-bottom: 10px;
+  float: left;
 }
 
 header nav ul li {
@@ -84,6 +85,15 @@ header nav ul li a:after {
 header nav ul li img {
   width: 150px;
   height: 70px;
+}
+
+header nav .nav-right-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
 }
 
 * {
@@ -224,14 +234,6 @@ section.features .features-item p {
 section.products {
   padding-top: 100px;
   padding-bottom: 100px;
-}
-
-@media (max-width: 575px) {
-  section.products {
-    font-size: 24px;
-    font-weight: 200;
-    padding: 20px;
-  }
 }
 
 section.products h2 {
