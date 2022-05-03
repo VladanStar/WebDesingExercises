@@ -8,6 +8,10 @@ section.products h2 {
   text-align: center;
   margin: auto;
   color: #fff;
+  padding-bottom: 50px;
+  font-size: 30px;
+  font-weight: 360;
+  margin-bottom: 70px;
 }
 
 section.products .container {
@@ -17,13 +21,12 @@ section.products .container {
 }
 
 section.products .container .product-item {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   display: block;
   background-image: url("../img/Syn-Pro-Air_2x_0bc214cb-36fa-4e0a-89d1-77e72a712e94_550x534.png");
   color: #fff;
-  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 section.products .container .product-item .product-info {
@@ -32,11 +35,5 @@ section.products .container .product-item .product-info {
 
 section.products .container .product-item .overlay {
   display: none;
-}
-
-section.products .container .product-item a {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 /*# sourceMappingURL=products.css.map */
