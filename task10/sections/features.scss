@@ -1,24 +1,46 @@
 section.features {
  display: flex;
- justify-content: space-evenly;
+ justify-content: space-between;
  text-align: center;
  color: #fff;  
  background-image: linear-gradient(to top, #1b1b1b 8%, #373737 100%);
  padding-bottom: 100px;
  
+ @media (max-width:$nd){
+  display: block;
+     
+     }
+ 
 .features-item {
     margin-top: -200px;
     z-index: 99;
+    @media (max-width:$xl){
+       padding: 10px;
+       margin-top: 0px;
+        
+        }
+
     img {
         width: 500px;
         margin-bottom: 50px;
+
+        @media (max-width:1580px){
+        width:350px;
+        padding:0 50px;
+        }
+        @media (max-width:$xl){
+            width:100%;
+            
+            }
+
     }
-  
+
     p {
         max-width: 30%;
         letter-spacing: 2px;
         margin: auto;
     }
-   
- }
 }
+}
+   
+ 

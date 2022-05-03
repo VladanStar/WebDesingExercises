@@ -7,7 +7,6 @@ header .pre-header {
   background-image: linear-gradient(to right, rgba(94, 90, 90, 0) 10%, #3b3535 100%);
   height: 30px;
   padding-top: 15px;
-  padding-bottom: 5px;
 }
 
 header .pre-header ul {
@@ -19,6 +18,7 @@ header .pre-header ul {
 header .pre-header ul li {
   display: inline-block;
   margin-right: 20px;
+  padding-bottom: 10px;
 }
 
 header .pre-header ul li:first-child a {
@@ -35,18 +35,20 @@ header nav {
   position: fixed;
   background-color: #000;
   width: 100%;
-  height: 40px;
+  height: 50px;
+  z-index: 101;
 }
 
 header nav ul {
   list-style: none;
+  padding-bottom: 10px;
 }
 
 header nav ul li {
   display: inline-block;
   margin-left: 30px;
   position: relative;
-  top: -20px;
+  top: -25px;
 }
 
 header nav ul li:first-child {
@@ -144,9 +146,9 @@ section.features {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   text-align: center;
   color: #fff;
   background-image: -webkit-gradient(linear, left bottom, left top, color-stop(8%, #1b1b1b), to(#373737));
@@ -154,14 +156,40 @@ section.features {
   padding-bottom: 100px;
 }
 
+@media (max-width: 767px) {
+  section.features {
+    display: block;
+  }
+}
+
 section.features .features-item {
   margin-top: -200px;
   z-index: 99;
 }
 
+@media (max-width: 1199px) {
+  section.features .features-item {
+    padding: 10px;
+    margin-top: 0px;
+  }
+}
+
 section.features .features-item img {
   width: 500px;
   margin-bottom: 50px;
+}
+
+@media (max-width: 1580px) {
+  section.features .features-item img {
+    width: 350px;
+    padding: 0 50px;
+  }
+}
+
+@media (max-width: 1199px) {
+  section.features .features-item img {
+    width: 100%;
+  }
 }
 
 section.features .features-item p {
@@ -254,5 +282,6 @@ section.products .container .product-item .overlay a {
   background: white;
   width: 130px;
   padding: 10px;
+  text-decoration: none;
 }
 /*# sourceMappingURL=main.css.map */

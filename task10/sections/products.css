@@ -82,5 +82,6 @@ section.products .container .product-item .overlay a {
   background: white;
   width: 130px;
   padding: 10px;
+  text-decoration: none;
 }
 /*# sourceMappingURL=products.css.map */

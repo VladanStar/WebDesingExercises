@@ -2,9 +2,9 @@ section.features {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   text-align: center;
   color: #fff;
   background-image: -webkit-gradient(linear, left bottom, left top, color-stop(8%, #1b1b1b), to(#373737));
@@ -20,6 +20,13 @@ section.features .features-item {
 section.features .features-item img {
   width: 500px;
   margin-bottom: 50px;
+}
+
+@media (max-width: 1580px) {
+  section.features .features-item img {
+    width: 350px;
+    padding: 0 50px;
+  }
 }
 
 section.features .features-item p {
