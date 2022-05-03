@@ -8,10 +8,27 @@ section.products {
     margin: auto;
     color: #fff;
   }
-  .product-item {
-    display: block;
-    background-image: url("../img/Syn-Pro-Air_2x_0bc214cb-36fa-4e0a-89d1-77e72a712e94_550x534.png");
-    padding: 20px;
-    color: $white;
+  .container {
+      display: flex;
+
+    .product-item {
+       
+        display: block;
+        background-image: url("../img/Syn-Pro-Air_2x_0bc214cb-36fa-4e0a-89d1-77e72a712e94_550x534.png");
+        padding: 20px;
+        color: $white;
+    
+        .product-info {
+    
+        }
+        .overlay {
+            display: none;
+        }
+        a {
+            justify-content: center;
+        }
+      }
+
   }
+ 
 }
