@@ -17,10 +17,21 @@ section.products {
 
     .product-item {
       justify-content: space-evenly;
-        background-image: url("../img/Syn-Pro-Air_2x_0bc214cb-36fa-4e0a-89d1-77e72a712e94_550x534.png");
+        background-image: url("../img/pdp_gallery_01_main_e5af85b7-7091-4157-8e47-b49d5888043d_1200x@2x.png");
         color: #fff;
+        width: 100%;
+        height: 710px;
+
         .product-info {
             padding: 30px;
+            h3 {
+              font-size: 32px;
+              font-weight: 400;
+            }
+            p {
+              font-size: 18px;
+
+            }
     
         }
         .overlay {
