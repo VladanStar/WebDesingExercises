@@ -9,4 +9,9 @@ section.products h2 {
   margin: auto;
   color: #fff;
 }
+
+section.products .product-item {
+  background-image: url("../img/Syn-Pro-Air_2x_0bc214cb-36fa-4e0a-89d1-77e72a712e94_550x534.png");
+  padding: 20px;
+}
 /*# sourceMappingURL=products.css.map */

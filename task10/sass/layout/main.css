@@ -32,6 +32,10 @@ header .pre-header ul li a {
 
 header nav {
   padding: 15px;
+  position: fixed;
+  background-color: #000;
+  width: 100%;
+  height: 40px;
 }
 
 header nav ul {
@@ -88,6 +92,11 @@ header nav ul li img {
 
 body {
   background-color: #000;
+}
+
+.container {
+  max-width: 1420px;
+  margin: auto;
 }
 
 section.hero h1 {
@@ -170,6 +179,12 @@ section.products h2 {
   max-width: 800px;
   text-align: center;
   margin: auto;
+  color: #fff;
+}
+
+section.products .product-item {
+  background-image: url("../img/Syn-Pro-Air_2x_0bc214cb-36fa-4e0a-89d1-77e72a712e94_550x534.png");
+  padding: 20px;
   color: #fff;
 }
 /*# sourceMappingURL=main.css.map */
