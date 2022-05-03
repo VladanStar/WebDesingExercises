@@ -193,7 +193,6 @@ section.products .container {
 }
 
 section.products .container .product-item {
-  display: block;
   background-image: url("../img/Syn-Pro-Air_2x_0bc214cb-36fa-4e0a-89d1-77e72a712e94_550x534.png");
   color: #fff;
 }
@@ -206,9 +205,9 @@ section.products .container .product-item .overlay {
   display: none;
 }
 
-section.products .container .product-item a {
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+section.products .container .product-item div {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 /*# sourceMappingURL=main.css.map */
