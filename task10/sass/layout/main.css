@@ -112,6 +112,14 @@ section.hero h1 {
   margin-bottom: 70px;
 }
 
+@media (max-width: 575px) {
+  section.hero h1 {
+    font-size: 24px;
+    font-weight: 200;
+    padding: 20px;
+  }
+}
+
 section.hero h1 span {
   font-weight: 600;
   -webkit-animation: color-change 7s infinite;
@@ -162,6 +170,14 @@ section.features {
   }
 }
 
+@media (max-width: 575px) {
+  section.features {
+    font-size: 24px;
+    font-weight: 200;
+    padding: 20px;
+  }
+}
+
 section.features .features-item {
   margin-top: -200px;
   z-index: 99;
@@ -194,7 +210,7 @@ section.features .features-item img {
 
 @media (max-width: 575px) {
   section.features .features-item img {
-    width: 200px;
+    width: 100%;
     padding: 20px;
   }
 }
