@@ -32,11 +32,21 @@ header .pre-header ul li a {
 
 header nav {
   padding: 15px;
-  position: fixed;
   background-color: #000;
   width: 100%;
   height: 50px;
   z-index: 101;
+}
+
+header nav.fixed-nav {
+  position: fixed;
+  top: 0;
+  -webkit-transition: 0.3;
+  transition: 0.3;
+}
+
+header nav .hamburger-menu-button {
+  display: none;
 }
 
 header nav ul {

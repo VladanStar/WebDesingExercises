@@ -13,3 +13,13 @@ $(document).ready(function ($) {
     $(".search-wrapper").hide();
   });
 });
+
+$(window).scroll(function(){
+if($(window).scrollTop()>300){
+  $("nav").addClass('fixed-nav')
+}
+else {
+  $("nav").removeClass('fixed-nav')
+}
+})
+
