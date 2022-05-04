@@ -15,8 +15,13 @@ $(document).ready(function ($) {
 });
 
 $("#hamburger-btn").click(function(){
-  $(this).toggleClass('opened')
-  $("nav ul").slideDown();
+  $(this).toggleClass('opened');
+  if($(this).hasClass('opened')){
+  $("nav ul").slideUp();
+  }
+  else {
+    $("nav ul").slideDown();
+  }
 })
 
 $(window).scroll(function(){

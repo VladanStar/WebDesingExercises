@@ -54,6 +54,18 @@ header nav .hamburger-menu-button {
   outline: none;
 }
 
+header nav .hamburger-menu-button .fa-times {
+  display: none;
+}
+
+header nav .hamburger-menu-button.opened .fa-times {
+  display: block;
+}
+
+header nav .hamburger-menu-button.opened .fa-bars {
+  display: none;
+}
+
 @media (max-width: 1000px) {
   header nav .hamburger-menu-button {
     display: block;
