@@ -27,6 +27,9 @@ jQuery(document).ready(function($) {
                 });
 
             }
+            else {
+                $element.removeClass('animate__animated ' + $element.attr('data-animation')); 
+            }
         });
     }
 
