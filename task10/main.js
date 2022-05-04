@@ -1,6 +1,8 @@
 $(document).ready(function ($) {
 
-  $(".loader-wrapper").fadeOut();
+  setTimeout(function(){
+  $(".loader-wrapper").fadeOut();}, 1000)
+
   $("#search-btn").click(function (e) {
     e.preventDefault();
     $(".search-wrapper").show();
