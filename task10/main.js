@@ -14,6 +14,10 @@ $(document).ready(function ($) {
   });
 });
 
+$("#hamburger-btn").click(function(){
+  $("nav ul").slideDown();
+})
+
 $(window).scroll(function(){
 if($(window).scrollTop()>300){
   $("nav").addClass('fixed-nav')
@@ -22,4 +26,5 @@ else {
   $("nav").removeClass('fixed-nav')
 }
 })
+
 

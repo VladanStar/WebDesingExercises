@@ -51,6 +51,7 @@ header nav .hamburger-menu-button {
   font-size: 38px;
   color: white;
   display: none;
+  outline: none;
 }
 
 @media (max-width: 1000px) {
@@ -62,6 +63,12 @@ header nav .hamburger-menu-button {
 header nav ul {
   list-style: none;
   padding-bottom: 10px;
+}
+
+@media (max-width: 1000px) {
+  header nav ul {
+    display: none;
+  }
 }
 
 header nav ul li {
@@ -77,6 +84,13 @@ header nav ul li:first-child {
 
 header nav ul li:first-child:hover:after {
   display: none;
+}
+
+@media (max-width: 1000px) {
+  header nav ul li {
+    display: block;
+    text-align: left;
+  }
 }
 
 header nav ul li a {

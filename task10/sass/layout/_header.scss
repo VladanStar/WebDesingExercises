@@ -51,6 +51,7 @@ header {
       font-size: 38px;
       color: white;
       display: none;
+      outline:none;
 
       @media (max-width:1000px){
         display: block;
@@ -59,6 +60,10 @@ header {
     ul {
       list-style: none;
       padding-bottom: 10px;
+      @media (max-width:1000px){
+        display: none;
+      }
+
 
       li {
         display: inline-block;
@@ -74,6 +79,10 @@ header {
               display: none;
             }
           }
+        }
+        @media (max-width:1000px){
+          display: block;
+          text-align:left;
         }
 
         a {
