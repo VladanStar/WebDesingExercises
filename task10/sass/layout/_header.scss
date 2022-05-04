@@ -53,6 +53,18 @@ header {
       display: none;
       outline:none;
 
+      .fa-times {
+        display: none;
+      }
+      &.opened {
+        .fa-times {
+          display: block;
+        }
+        .fa-bars {
+          display: none;
+        }
+      }
+
       @media (max-width:1000px){
         display: block;
       }

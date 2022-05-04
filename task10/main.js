@@ -15,6 +15,7 @@ $(document).ready(function ($) {
 });
 
 $("#hamburger-btn").click(function(){
+  $(this).toggleClass('opened')
   $("nav ul").slideDown();
 })
 
