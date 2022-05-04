@@ -46,7 +46,15 @@ header {
       transition: 0.3;
     }
     .hamburger-menu-button {
+      background-color: transparent;
+      border: none;
+      font-size: 38px;
+      color: white;
       display: none;
+
+      @media (max-width:1000px){
+        display: block;
+      }
     }
     ul {
       list-style: none;

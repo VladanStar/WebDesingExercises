@@ -46,7 +46,17 @@ header nav.fixed-nav {
 }
 
 header nav .hamburger-menu-button {
+  background-color: transparent;
+  border: none;
+  font-size: 38px;
+  color: white;
   display: none;
+}
+
+@media (max-width: 1000px) {
+  header nav .hamburger-menu-button {
+    display: block;
+  }
 }
 
 header nav ul {
