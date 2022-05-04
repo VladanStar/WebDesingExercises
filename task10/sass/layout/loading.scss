@@ -1,8 +1,22 @@
+.loader-wrapper {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 105;
+    margin: auto;
+    display: block;
+    padding-top: 25%;
+}
 .lds-hourglass {
-    display: inline-block;
+    display: block;
     position: relative;
     width: 80px;
     height: 80px;
+    margin: auto;
   }
   .lds-hourglass:after {
     content: " ";
