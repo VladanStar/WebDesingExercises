@@ -1,0 +1,87 @@
+section.products {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+section.products h2 {
+  max-width: 800px;
+  text-align: center;
+  margin: auto;
+  color: #fff;
+  padding-bottom: 50px;
+  font-size: 30px;
+  font-weight: 360;
+  margin-bottom: 70px;
+}
+
+section.products .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section.products .container .product-item {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: #fff;
+  width: 100%;
+  height: 710px;
+  position: relative;
+}
+
+section.products .container .product-item:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+section.products .container .product-item:hover .overlay {
+  display: block;
+  background-color: rgba 0, 0, 0, 0.4;
+}
+
+section.products .container .product-item.product-keyboard {
+  background-image: url("https://cdn.shopify.com/s/files/1/0507/9688/8239/products/pdp_gallery_06_4bb3a949-40b0-48c2-a8ff-d20df93751aa_1200x@2x.png?v=1644259066");
+}
+
+section.products .container .product-item.product-headset {
+  background-image: url("https://i.shgcdn.com/112a9e4b-6640-488a-bc3c-1187fdfee650/-/format/auto/-/preview/3000x3000/-/quality/lighter/");
+}
+
+section.products .container .product-item .product-info {
+  padding: 30px;
+}
+
+section.products .container .product-item .product-info h3 {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+section.products .container .product-item .product-info p {
+  font-size: 18px;
+}
+
+section.products .container .product-item .overlay {
+  display: none;
+  background-color: rgba 0, 0, 0, 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+section.products .container .product-item .overlay a {
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-top: 45%;
+  color: black;
+  background: white;
+  width: 130px;
+  padding: 10px;
+  text-decoration: none;
+}
+/*# sourceMappingURL=products.css.map */

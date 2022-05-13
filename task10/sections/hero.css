@@ -1,0 +1,41 @@
+section.hero h1 {
+  font-size: 68px;
+  font-weight: 300px;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 8px;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+section.hero h1 span {
+  font-weight: 600;
+  -webkit-animation: color-change 7s infinite;
+          animation: color-change 7s infinite;
+}
+
+@-webkit-keyframes color-change {
+  0% {
+    color: red;
+  }
+  50% {
+    color: blue;
+  }
+  100% {
+    color: red;
+  }
+}
+
+@keyframes color-change {
+  0% {
+    color: red;
+  }
+  50% {
+    color: blue;
+  }
+  100% {
+    color: red;
+  }
+}
+/*# sourceMappingURL=hero.css.map */

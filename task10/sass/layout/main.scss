@@ -1,6 +1,9 @@
+@import "../variables";
 @import './header';
 @import "./base";
-body {
-    background-color: lightgreen;
-}
+@import "../../sections/hero";
+@import "../../sections/features";
+@import "../../sections/products";
+@import "./features.scss";
+@import "./loading.scss";
 
