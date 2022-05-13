@@ -1,15 +1,15 @@
 header {
   background-color: #000;
-}
-
-header {
   border: 1px solid violet;
 }
 header nav {
   padding: 15px;
 }
+header nav ul {
+  list-style: none;
+}
 header nav ul li {
-  background-color: cadetblue;
+  display: inline-block;
 }
 
 * {
